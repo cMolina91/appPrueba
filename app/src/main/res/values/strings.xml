@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Nav</string>
+    <string name="volver">Volver</string>
+    <string name="pagina_2">Pagina 2</string>
+    <string name="pagina_3">Pagina 3</string>
+    <string name="pagina_4">Pagina 4</string>
+    <string name="pagina_1">Pagina 1</string>
+    <string name="pagina_4_2">Pagina 4</string>
+    <string name="pagina_3_2">Pagina 3</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yoshi"
+    tools:context=".Pagina3">
+
+    <Button
+        android:id="@+id/btnVolver3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volver"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnSiguiente3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagina 3"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        android:background="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnPag3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagina 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnPag3_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.5"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnPag3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagina 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.5"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnPag3_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagina 4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnPag3_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.9"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnSalir3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0202"
+
+        android:text="Salir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
